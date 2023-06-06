@@ -1,0 +1,22 @@
+--Create a Store Database
+
+CREATE TABLE crystals (id INTEGER PRIMARY KEY, type TEXT, price INTEGER, quantity INTEGER);
+
+INSERT INTO crystals VALUES (1, "Amethyst", 15, 10);
+INSERT INTO crystals VALUES (2, "Rose Quartz", 10, 15);
+INSERT INTO crystals VALUES (3, "Citrine", 13, 10);
+INSERT INTO crystals VALUES (4, "Fluorite", 8, 20);
+INSERT INTO crystals VALUES (5, "Smoky Quartz", 18, 10);
+
+CREATE TABLE jewelry (id INTEGER PRIMARY KEY, type TEXT, price INTEGER, quantity INTEGER);
+INSERT INTO jewelry VALUES (1, "Necklaces", 10, 15);
+INSERT INTO jewelry VALUES (2, "Bracelets", 15, 10);
+INSERT INTO jewelry VALUES (3, "Rings", 20, 10);
+INSERT INTO jewelry VALUES (4, "Earrings", 18, 25);
+INSERT INTO jewelry VALUES (5, "Nose Rings",15, 15);
+
+CREATE TABLE incense (id INTEGER PRIMARY KEY, Scent TEXT, price INTEGER, quantity INTEGER);
+INSERT INTO incense VALUES (1, "Sandalwood", 6, 5);
+INSERT INTO incense VALUES (2, "Nag Champa", 6, 5);
+INSERT INTO incense VALUES (4, "Vanilla", 6, 5);
+INSERT INTO incense VALUES (5, "Rose", 6, 5);
